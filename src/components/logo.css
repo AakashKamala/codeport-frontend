@@ -1,0 +1,10 @@
+.logo {
+    color: green;
+    margin-left: 5 rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link{
+    text-decoration: none;
+    color: green;
+}

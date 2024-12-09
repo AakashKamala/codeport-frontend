@@ -1,0 +1,28 @@
+.create{
+    display: flex;
+    background: transparent;
+}
+
+.create .project{
+    background: transparent;
+    background: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 999px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 10px;
+    margin: auto;
+}
+
+.create .collab{
+    background: transparent;
+    background: black;
+    color: white;
+    border: 1px solid green;
+    border-radius: 999px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 10px;
+    margin: auto;
+}

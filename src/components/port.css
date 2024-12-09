@@ -1,0 +1,52 @@
+.accept{
+    display: block;
+    background: transparent;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 999px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 10px;
+    margin: auto;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.accept:hover{
+    background: green;
+}
+
+.reject{
+    display: block;
+    background: transparent;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 999px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 10px;
+    margin: auto;
+    height: 2rem;
+}
+
+.preview{
+    background: transparent;
+    background: black;
+    color: green;
+    border: 1px solid black;
+    border-radius: 999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.reject:hover{
+    background: red;
+}

@@ -57,7 +57,7 @@
 
 
 
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 
@@ -71,19 +71,19 @@ function AnimatedAIModel() {
   const initialPosition = { x: 0.5, y: -1, z: 0 };
 
   // Cursor movement logic
-  const handleMouseMove = (event: MouseEvent) => {
-    if (!modelRef.current) return;
+  // const handleMouseMove = (event: MouseEvent) => {
+  //   if (!modelRef.current) return;
 
-    const { clientX: x, clientY: y } = event;
+  //   const { clientX: x, clientY: y } = event;
 
-    // Normalize cursor position
-    const normalizedX = (x / window.innerWidth) * 2 - 1;
-    const normalizedY = -(y / window.innerHeight) * 2 + 1;
+  //   // Normalize cursor position
+  //   const normalizedX = (x / window.innerWidth) * 2 - 1;
+  //   const normalizedY = -(y / window.innerHeight) * 2 + 1;
 
-    // Smoothly move the model relative to the initial position
-    modelRef.current.position.x += (normalizedX - modelRef.current.position.x) * 0.1;
-    modelRef.current.position.y += (normalizedY - modelRef.current.position.y) * 0.1;
-  };
+  //   // Smoothly move the model relative to the initial position
+  //   modelRef.current.position.x += (normalizedX - modelRef.current.position.x) * 0.1;
+  //   modelRef.current.position.y += (normalizedY - modelRef.current.position.y) * 0.1;
+  // };
 
   // Set the initial position of the model
   useEffect(() => {
